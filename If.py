@@ -44,6 +44,7 @@ if Gela != "Has samsung":
     print("T")
 else:
     print("F")
+
 banned_users = ["michael","linda","londa"]
 
 user = "penelopa"
