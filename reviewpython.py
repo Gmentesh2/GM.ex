@@ -182,8 +182,9 @@ dogs.append('daisy')
 # del dogs[0]
 # print(dogs)
 
-dogs.remove("daisy")
-print(dogs)
+# dogs.remove("daisy")
+# print(dogs)
+
 
 
 
