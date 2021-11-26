@@ -37,3 +37,36 @@ while True:
     break
   else:
     print("I have been to " + city + ".")
+
+promt = "What citys have you visited"
+promt += "\nEnter 'Quit' when you are done.>>>" 
+
+while True:
+  city = input(promt)
+
+  if city == "Quit":
+    break
+  else:
+    print("I have been to " + city + ".")
+#
+Banned_users = ["mak","zac","stark"]
+
+promt = "Add player in your team"
+promt += "\nEnter 'quit' when you are done"
+
+players = []
+
+while True:
+  player = input(promt)
+  if player == "quit":
+    break
+  elif player in Banned_users:
+    print(player + "is banned")
+    continue
+  else:
+    players.append(player)
+    print(player)
+
+print("\nYour team list:")
+for player in players:
+  print(player)
